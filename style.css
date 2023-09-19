@@ -1,0 +1,57 @@
+@charset " utf-8" ;
+
+body {
+margin: 0;
+padding: 32px;
+background: lavenderblush;
+}
+
+.con {
+  min-width: 600px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  flex: 1;
+}
+
+section {
+  margin-top: 64px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.8;
+}
+
+footer {
+  margin-top: 64px;
+  padding-top: 64px;
+  border-top: 1px solid #aaa;
+  text-align: center;
+}
+
+small {
+  padding-top: 64px;
+  font-size: 14px;
+}
